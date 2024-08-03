@@ -1,3 +1,17 @@
+---
+author: Jean Branco
+pubDatetime: 2024-08-03T20:00:00.000Z
+modDatetime: 2024-08-03T20:00:00.000Z
+title: Compreendendo Variáveis em GoLang
+slug: golang-variaveis
+featured: false
+draft: false
+tags:
+ - golang
+ - backend
+description: Entenda como usar variáveis na linguagem GoLang e suas principais características.
+--- 
+
 # GoLang - Aula 2: Variáveis
 
 Olá! Seja bem-vindo a mais uma aula da nossa Trilha de Golang! Nesta aula, vamos explorar de forma detalhada o que são variáveis e alguns conceitos relacionados. Vamos começar?

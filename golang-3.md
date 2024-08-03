@@ -1,3 +1,17 @@
+---
+author: Jean Branco
+pubDatetime: 2024-08-03T20:00:00.000Z
+modDatetime: 2024-08-03T20:00:00.000Z
+title: Entrada e Saída de Dados em GoLang
+slug: golang-entradasaida-dados
+featured: false
+draft: false
+tags:
+ - golang
+ - backend
+description: Descubra como gerenciar entrada e saída de dados na linguagem GoLang.
+--- 
+
 # GoLang - Aula 3: Entrada de Dados & Saída de Dados
 
 Olá!! Seja muito bem-vindo(a) à nossa terceira aula na trilha de GoLang! Nesta aula, vamos nos aprofundar em **Entrada e Saída de Dados**, entendendo como funciona e como utilizá-las na prática. Vamos começar!?

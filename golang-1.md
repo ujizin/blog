@@ -1,3 +1,18 @@
+---
+author: Jean Branco
+pubDatetime: 2024-08-03T20:00:00.000Z
+modDatetime: 2024-08-03T20:00:00.000Z
+title: Introdução Prática ao GoLang
+slug: golang-introducao
+featured: false
+draft: false
+tags:
+ - golang
+ - backend
+ - instalacao
+description: Aprenda a instalar e começar a usar o GoLang.
+--- 
+
 # GoLang - Aula 1: Introdução ao Golang
 
 Olá! Seja bem-vindo(a) à primeira aula da nossa Trilha de Golang. Nesta aula, você vai descobrir o que é o Golang, aprender como configurá-lo na sua máquina, escreverá seu primeiro programa e entenderá como funciona um programa Go. Vamos começar?
