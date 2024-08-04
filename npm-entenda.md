@@ -1,7 +1,7 @@
 ---
 author: Gabriel Moodlight
 pubDatetime: 2024-08-02T02:00:00.000Z
-modDatetime: 2024-08-02T02:00:00.000Z
+modDatetime: 2024-08-02T05:00:00.000Z
 title: NPM - Entenda!
 slug: npm-entenda
 featured: false

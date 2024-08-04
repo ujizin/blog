@@ -1,7 +1,7 @@
 ---
 author: Jean Branco
-pubDatetime: 2024-08-03T20:00:00.000Z
-modDatetime: 2024-08-03T20:00:00.000Z
+pubDatetime: 2024-08-03T20:00:10.000Z
+modDatetime: 2024-08-03T20:00:10.000Z
 title: Compreendendo Variáveis em GoLang
 slug: golang-variaveis
 featured: false
