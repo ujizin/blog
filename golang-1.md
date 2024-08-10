@@ -5,7 +5,7 @@ modDatetime: 2024-08-03T20:00:00.000Z
 title: Introdução Prática ao GoLang
 slug: golang-introducao
 featured: false
-draft: false
+draft: true
 tags:
  - golang
  - backend

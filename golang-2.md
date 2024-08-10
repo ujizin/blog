@@ -5,7 +5,7 @@ modDatetime: 2024-08-03T20:00:10.000Z
 title: Compreendendo Variáveis em GoLang
 slug: golang-variaveis
 featured: false
-draft: false
+draft: true
 tags:
  - golang
  - backend
