@@ -1,7 +1,7 @@
 ---
 author: Jean Branco
-pubDatetime: 2024-08-10T21:00:20.000Z
-modDatetime: 2024-08-10T21:00:20.000Z
+pubDatetime: 2024-08-10T21:00:40.000Z
+modDatetime: 2024-08-10T21:00:40.000Z
 title: Operadores Básicos de GoLang
 slug: golangmini-operadores
 featured: false

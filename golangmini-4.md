@@ -1,7 +1,7 @@
 ---
 author: Jean Branco
-pubDatetime: 2024-08-10T21:00:20.000Z
-modDatetime: 2024-08-10T21:00:20.000Z
+pubDatetime: 2024-08-10T21:00:30.000Z
+modDatetime: 2024-08-10T21:00:30.000Z
 title: Tipos de Dados Básicos do Golang
 slug: golangmini-tiposdedados
 featured: false
