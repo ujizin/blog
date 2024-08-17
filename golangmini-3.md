@@ -1,29 +1,21 @@
 ---
 author: Jean Branco
-pubDatetime: 2024-08-03T20:00:20.000Z
-modDatetime: 2024-08-03T20:00:20.000Z
+pubDatetime: 2024-08-10T21:00:20.000Z
+modDatetime: 2024-08-10T21:00:20.000Z
 title: Entrada e Saída de Dados em GoLang
-slug: golang-entradasaida-dados
+slug: golangmini-entradasaida-dados
 featured: false
-draft: true
+draft: false
 tags:
  - golang
  - backend
+ - minicurso
 description: Descubra como gerenciar entrada e saída de dados na linguagem GoLang.
 --- 
 
-# GoLang - Aula 3: Entrada de Dados & Saída de Dados
+# GoLang MiniCurso - Aula 3: Entrada de Dados & Saída de Dados
 
-Olá!! Seja muito bem-vindo(a) à nossa terceira aula na trilha de GoLang! Nesta aula, vamos nos aprofundar em **Entrada e Saída de Dados**, entendendo como funciona e como utilizá-las na prática. Vamos começar!?
-
-## Tópicos da Aula:
-
-- [Saída de Dados](#saída-de-dados)
-  - [Print](#print)
-  - [Println](#println)
-  - [Printf](#printf)
-- [Entrada de Dados](#entrada-de-dados)
-  - [Scan](#scan)
+Olá!! Seja muito bem-vindo(a) à mais aula do MiniCurso de Go! Nesta aula, vamos nos aprofundar em **Entrada e Saída de Dados**, entendendo como funciona e como utilizá-las na prática. Vamos começar!?
 
 ## Saída de Dados
 
@@ -104,44 +96,6 @@ fmt.Println(z)
 
 > O Println automaticamente pula uma linha no final da saída. Além disso, você pode usar a instrução \n para formatar a saída conforme necessário.
 
-### Printf
-
-A função `Printf` formata e imprime seus argumentos com base nos Verbos de Formatação fornecidos. Aqui estão alguns verbos comuns:
-
-- `%v`: Imprime o valor dos argumentos.
-- `%T`: Imprime o tipo dos argumentos.
-
-```go
-var (
-	nome  string = "José"
-	idade int    = 50
-)
-
-fmt.Printf("Nome: %v \n", nome) 
-fmt.Printf("Idade: %v \n", idade)
-
-```go
-a := 3
-b := "Oi"
-c := false
-
-fmt.Printf("Variável: A / Valor: %v / Tipo: %T\n", a, a)
-fmt.Printf("Variável: B / Valor: %v / Tipo: %T\n", b, b)
-fmt.Printf("Variável: C / Valor: %v / Tipo: %T\n", c, c)
-```
-
-```go
-nome := "Lucas"
-idade := 30
-altura := 1.69
-
-fmt.Printf("O nome é %v, a idade é %v, e a altura é %v. \n", nome, idade, altura)
-```
- 
-> O Printf é bastante flexível e permite formatação detalhada. Recomendo que você use Printf para uma formatação mais controlada, em vez de separar variáveis na string com vírgulas.
-
-Para uma lista completa dos verbos de formatação, consulte o repositório [aqui](https://github.com/Jeanz1nn/golang-material) na pasta `uteis`.
-
 ## Entrada de Dados
 
 A entrada de dados, ou **Input**, refere-se aos dados digitados pelo usuário que podem ser capturados e armazenados em variáveis para processamento posterior.
@@ -156,7 +110,7 @@ var nome string
 fmt.Println("Digite seu nome:")
 fmt.Scan(&nome) 
 
-fmt.Printf("Seu nome é %s. \n", nome)
+fmt.Println("Seu nome é", nome)
 ```
 
 ```go
@@ -168,7 +122,7 @@ fmt.Scan(&carroModelo)
 fmt.Println("Qual é a marca do carro?")
 fmt.Scan(&carroMarca)
 
-fmt.Printf("O modelo do carro é %s, e a marca é %s. \n", carroModelo, carroMarca)
+fmt.Printf("O modelo do carro é", carroModelo, "e a marca é", carroMarca)
 ```
 
 > O `&` antes do nome da variável é crucial, pois indica o endereço da variável na memória para que Scan possa armazenar o valor nela.
@@ -177,6 +131,6 @@ Existem outras funções de `Scan` que oferecem diferentes comportamentos, mas n
 
 ## Finalização
 
-Chegamos ao final de mais uma aula. Hoje você aprendeu sobre Entrada e Saída de Dados e está pronto para os desafios propostos. Preparei **3 desafios** para você, que estarão no [repositório](https://github.com/Jeanz1nn/golang-material) na pasta `desafios`. Recomendo fortemente que você complete esses desafios e baixe o material adicional para consolidar seu aprendizado em GoLang.
+Chegamos ao final de mais uma aula. Hoje você aprendeu sobre Entrada e Saída de Dados e está pronto para os desafios propostos. Preparei **3 desafios** para você, que estarão nesse repositório na pasta `desafios`. Recomendo fortemente que você complete esses desafios e baixe o material adicional para consolidar seu aprendizado em GoLang.
 
 Espero que tenha gostado da aula! Até a próxima.

@@ -1,37 +1,22 @@
 ---
 author: Jean Branco
-pubDatetime: 2024-08-03T20:00:10.000Z
-modDatetime: 2024-08-03T20:00:10.000Z
+pubDatetime: 2024-08-10T21:00:10.000Z
+modDatetime: 2024-08-10T21:00:10.000Z
 title: Compreendendo Variáveis em GoLang
-slug: golang-variaveis
+slug: golangmini-variaveis
 featured: false
-draft: true
+draft: false
 tags:
  - golang
  - backend
+ - instalacao
+ - minicurso
 description: Entenda como usar variáveis na linguagem GoLang e suas principais características.
 --- 
 
-# GoLang - Aula 2: Variáveis
+# GoLang MiniCurso - Aula 2: Variáveis
 
-Olá! Seja bem-vindo a mais uma aula da nossa Trilha de Golang! Nesta aula, vamos explorar de forma detalhada o que são variáveis e alguns conceitos relacionados. Vamos começar?
-
-## Tópicos da Aula:
-
-- [O que são Variáveis](#o-que-são-variáveis)
-- [Tipos de Variáveis](#tipos-de-variáveis)
-- [Declarando Variáveis](#declarando-variáveis)
-- [Atribuição de Valor](#atribuição-de-valor)
-- [Declarando e Atribuindo Valor](#declarando-e-atribuindo-valor)
-- [Reatribuindo Valor](#reatribuindo-valor)
-- [Imprimindo o Valor da Variável](#imprimindo-o-valor-da-variável)
-- [Formas de Declarar Variáveis](#formas-de-declarar-variáveis)
-- [Implícito X Explícito](#implícito-x-explícito)
-- [Tipagem Estática Forte](#tipagem-estática-forte)
-- [Regras de Nomenclatura](#regras-de-nomenclatura)
-- [Declaração de Multiplas Variáveis](#declaração-de-variáveis-múltiplas)
-- [Declaração de Variáveis em Bloco](#declaração-de-variáveis-em-bloco)
-- [Constantes](#constantes)
+Olá! Seja bem-vindo a mais uma aula do MiniCurso de Golang! Nesta aula, vamos explorar de forma detalhada o que são variáveis e alguns conceitos relacionados. Vamos começar?
 
 ## O que são Variáveis?
 
@@ -45,8 +30,6 @@ Antes de usar variáveis, é importante entender os principais tipos de variáve
 - **int:** Números inteiros, tanto positivos quanto negativos. Exemplos: `24`, `-274`, `0`, `123456`.
 - **bool:** Valores lógicos, que podem ser `true` ou `false`.
 - **float64:** Números com ponto flutuante (decimais), positivos e negativos. Exemplos: `23.9`, `59.3885`, `-8485.249`.
-
-> Em futuras aulas, vamos explorar mais a fundo os tipos de dados, pois é um tópico extenso, assim como as variáveis.
 
 ## Declarando Variáveis
 
@@ -252,76 +235,8 @@ meu_nome_completo := "Jean Lourenço Branco"
 
 > Cada forma de nomenclatura pode ser usada dependendo do contexto e das convenções adotadas pela equipe ou projeto.
 
-## Declaração de Variáveis Múltiplas
-
-Em Golang, você pode declarar várias variáveis na mesma linha. Isso é útil para melhorar a legibilidade.
-
-```go
-var a, b, c, d, e int = 2, 4, 6, 8, 10
-
-fmt.Println(a)
-fmt.Println(b)
-fmt.Println(c)
-fmt.Println(d)
-fmt.Println(e)
-```
-
-> Quando declaramos várias variáveis do mesmo tipo, a declaração conjunta melhora a legibilidade. Também é possível declarar várias variáveis sem atribuir valores iniciais.
-
-```go
-var a, b, c int
-var x, y, z string
-
-a = 20
-b = 11
-c = 5
-x = "C"
-y = "C++"
-z = "C#"
-
-fmt.Println(a, b, c, x, y, z)
-```
-
-> Note que valores são atribuídos posteriormente. Isso é útil para declarar variáveis sem inicializar imediatamente.
-
-## Declaração de Variáveis em Bloco
-
-As declarações podem ser agrupadas em um bloco para evitar repetição da palavra-chave `var`.
-
-```go
-var (
-    nome   string  = "João"
-    idade  int     = 19
-    altura float64 = 1.81
-)
-```
-
-> Usar blocos para declarações pode economizar código e melhorar a organização.
-
-Você também pode combinar declarações múltiplas e blocos.
-
-```go
-var (
-    x, y, z int    = 2, 5, 11
-    a, b, c string = "JS", "TS", "Node.js"
-)
-
-```
-
-> Este método é útil para agrupar variáveis relacionadas e manter o código limpo e organizado.
-
-## Constantes
-
-Quando uma variável possui um valor fixo que não deve ser alterado, você pode usar a palavra-chave `const`. Uma constante é imutável após sua declaração.
-
-```go
-const minhaConstante string = "Golang" // A constante não pode ser alterada após a atribuição
-fmt.Println(minhaConstante)
-```
-> Você não pode declarar uma constante sem atribuir um valor inicial. Além disso, a declaração de várias constantes em um bloco funciona da mesma forma que com variáveis.
-
 ## Finalização
 
 Parabéns! Você chegou ao final da aula. Embora possa parecer um pouco cansativo, agora você tem um entendimento sólido sobre variáveis em Golang. Lembre-se de praticar para fixar os conceitos e aplicá-los em seus projetos futuros.
 
-Até a próxima aula e boa codificação!
+Até a próxima aula e boa codificação! 🚀
