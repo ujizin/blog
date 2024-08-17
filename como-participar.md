@@ -4,7 +4,7 @@ pubDatetime: 2024-07-20T05:00:00.000Z
 modDatetime: 2024-07-30T02:00:00.000Z
 title: Como Participar?
 slug: como-participar
-featured: true
+featured: false
 draft: false
 description: Eu posso postar conteúdos aqui?
 ogImage: /assets/hello-world.png

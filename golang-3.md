@@ -5,6 +5,7 @@ modDatetime: 2024-08-03T20:00:20.000Z
 title: Entrada e Saída de Dados em GoLang
 slug: golang-entradasaida-dados
 featured: false
+course: golang
 draft: true
 tags:
  - golang

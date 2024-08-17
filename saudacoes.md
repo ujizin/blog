@@ -4,7 +4,7 @@ pubDatetime: 2024-07-20T05:00:00.000Z
 modDatetime: 2024-07-30T10:00:00.000Z
 title: Saudações, Devs!
 slug: saudacoes
-featured: true
+featured: false
 draft: false
 description: É um prazer ter você aqui conosco!
 ogImage: /assets/hello-world.png

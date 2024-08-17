@@ -5,11 +5,12 @@ modDatetime: 2024-08-03T20:00:10.000Z
 title: Compreendendo Variáveis em GoLang
 slug: golang-variaveis
 featured: false
+course: golang
 draft: true
 tags:
  - golang
  - backend
-description: Entenda como usar variáveis na linguagem GoLang e suas principais características.
+description: Entenda as variáveis em GoLang e suas principais características.
 --- 
 
 # GoLang - Aula 2: Variáveis
