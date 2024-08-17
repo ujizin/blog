@@ -1,7 +1,7 @@
 ---
 author: Jean Branco
-pubDatetime: 2024-07-17T05:00:00.000Z
-modDatetime: 2024-07-17T05:00:00.000Z
+pubDatetime: 2024-07-22T05:00:00.000Z
+modDatetime: 2024-07-22T05:00:00.000Z
 title: Introdução ao TypeScript
 slug: typescript-introducao
 featured: false

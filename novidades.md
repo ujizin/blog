@@ -4,7 +4,7 @@ pubDatetime: 2024-07-20T05:00:00.000Z
 modDatetime: 2024-07-30T01:00:00.000Z
 title: Novidades!
 slug: novidades
-featured: true
+featured: false
 draft: false
 description: Saiba o que está por vir no Hub da Play Dev!
 ogImage: /assets/hello-world.png
