@@ -1,22 +1,22 @@
 ---
 author: Jean Branco
-pubDatetime: 2024-08-03T20:00:00.000Z
-modDatetime: 2024-08-03T20:00:00.000Z
-title: Introdução Prática ao GoLang
-slug: golang-introducao
+pubDatetime: 2024-08-10T21:00:00.000Z
+modDatetime: 2024-08-10T21:00:00.000Z
+title: Introdução ao GoLang
+slug: golangmini-introducao
 featured: false
-course: golang
-draft: true
+draft: false
 tags:
  - golang
  - backend
  - instalacao
+ - minicurso
 description: Aprenda a instalar e começar a usar o GoLang.
 --- 
 
-# GoLang - Aula 1: Introdução ao Golang
+# GoLang MiniCurso - Aula 1: Introdução ao Golang
 
-Olá! Seja bem-vindo(a) à primeira aula da nossa Trilha de Golang. Nesta aula, você vai descobrir o que é o Golang, aprender como configurá-lo na sua máquina, escreverá seu primeiro programa e entenderá como funciona um programa Go. Vamos começar?
+Olá! Seja bem-vindo(a) à primeira aula do MiniCurso de Golang. Nesta aula, você vai descobrir o que é o Golang, aprender como configurá-lo na sua máquina, escreverá seu primeiro programa e entenderá como funciona um programa Go. Vamos começar?
 
 ## O que é o Golang?
 
@@ -108,10 +108,6 @@ func main() {
 
 ## Finalização
 
-Parabéns! 🎉 Você completou sua primeira aula de Golang. Agora você sabe o que é o Go, como configurar seu ambiente de desenvolvimento, criar um programa básico e entender a estrutura de um programa Go.
-
-Em futuras aulas, vamos explorar mais recursos e funcionalidades do Go. Prepare-se para aprofundar seus conhecimentos e começar a construir aplicações mais complexas!
-
-Enquanto isso, não hesite em experimentar mais com o código que você escreveu hoje. Tente modificar o programa e veja como as mudanças afetam a saída. A prática é essencial para consolidar o que você aprendeu.
+Parabéns! 🎉 Você completou sua primeira aula do MiniCurso Golang. Agora você sabe o que é o Go, como configurar seu ambiente de desenvolvimento, criar um programa básico e entender a estrutura de um programa Go. Lembre-se de praticar para fixar os conceitos e aplicá-los em seus projetos futuros.
 
 Até a próxima aula e boa codificação! 🚀
