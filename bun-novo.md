@@ -81,7 +81,7 @@ O Bun está rapidamente ganhando popularidade no ecossistema de desenvolvimento 
 
 Experimente o Bun e veja como ele pode transformar seu fluxo de trabalho e otimizar suas tarefas diárias!
 
-Qualquer dúvida, deixe nos comentários!
+<!-- Qualquer dúvida, deixe nos comentários! -->
 
 Até a próxima!
 

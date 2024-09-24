@@ -115,7 +115,9 @@ Para desenvolvedores iniciantes, a habilidade de pesquisar é tão importante qu
 
 Ao investir tempo em aprender a pesquisar eficientemente, você não só se torna um desenvolvedor mais autossuficiente, mas também ganha uma vantagem competitiva no mercado de trabalho. Então, não hesite em usar todos os recursos disponíveis e continue explorando o vasto mundo do desenvolvimento de software.
 
-Se você tem alguma dúvida ou gostaria de saber mais sobre este tema, não hesite em perguntar. Boa pesquisa e bons códigos!
+<!-- Se você tem alguma dúvida ou gostaria de saber mais sobre este tema, deixe nos comentários! -->
+
+Boa pesquisa e bons códigos!
 
 Até a próxima o/
 

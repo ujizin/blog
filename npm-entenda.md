@@ -118,11 +118,11 @@ Essa pasta pode crescer bastante, então evite incluí-la no controle de versão
 ## Conclusão
 O NPM é uma ferramenta poderosa que facilita muito o gerenciamento de dependências no desenvolvimento com Node. Com os comandos básicos que foram apresentados, é possível iniciar e gerenciar projetos de forma eficiente. Espero que essa aula tenha sido útil e que agora você se sinta mais confortável para usar o NPM no dia a dia.
 
-Qualquer dúvida, deixe nos comentários!
+<!-- Qualquer dúvida, deixe nos comentários! -->
 
 Até a próxima!
 
-<hr />
+---
 
 ### Links Úteis:
 
@@ -138,4 +138,4 @@ Até a próxima!
 
 <a href="https://www.alura.com.br/artigos/criando-e-publicando-uma-biblioteca-javascript-no-npm" target="_blank">[Alura] Criando e Publicando uma Lib no NPM</a>
 
-<hr />
+---
