@@ -1,7 +1,7 @@
 ---
 author: Humberto (op3n)
 pubDatetime: 2024-09-28T13:46:35.000Z
-modDatetime: 2024-08-28T13:46:35.000Z
+modDatetime: 2024-09-28T13:46:35.000Z
 title: "Como usar o terminal? (Parte 2)"
 slug: como-usar-terminal-2
 featured: false
