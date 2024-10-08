@@ -2,13 +2,14 @@
 author: Humberto (op3n)
 pubDatetime: 2024-09-24T05:00:00.000Z
 modDatetime: 2024-09-24T05:00:00.000Z
-title: Como usar o terminal? (Iniciantes)
-slug: terminal-introducao
+title: Como usar o terminal Linux? (Iniciantes)
+slug: como-usar-terminal-linux
 featured: false
 draft: false
 tags:
  - backend
  - iniciantes
+ - linux
  - minicurso
  - basico
 description: Aqui, você vai aprender como usar o terminal, aquela ferramenta que praticamente ninguém olha, mas é seu maior aliado!

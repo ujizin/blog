@@ -2,13 +2,14 @@
 author: Humberto (op3n)
 pubDatetime: 2024-09-28T13:46:35.000Z
 modDatetime: 2024-09-28T13:46:35.000Z
-title: "Como usar o terminal? (Parte 2)"
-slug: como-usar-terminal-2
+title: "Como usar o terminal Linux? (Parte 2)"
+slug: como-usar-terminal-linux-2
 featured: false
 draft: false
 tags:
  - backend
  - iniciantes
+ - linux
  - basico
  - minicurso
 description: Como usar o seu aliado secreto do linux? Aqui você vai entender como usar o terminal!
