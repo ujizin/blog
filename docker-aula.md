@@ -1,5 +1,18 @@
-Titulo: "Como usar o docker? (Aula de Bash - Parte 3)"
-Subtitulo: "Nessa aula, você aí, vai aprender a usar containers docker, e melhor, no conforto do seu Linux!"
+---
+author: Humberto (op3n)
+pubDatetime: 2024-10-17T05:00:00.000Z
+modDatetime: 2024-10-17T05:00:00.000Z
+title: Como usar o docker? (Aula de Bash - Parte 3)
+slug: docker-iniciantes
+featured: false
+draft: false
+tags:
+ - backend
+ - iniciantes
+ - minicurso
+ - basico
+description: Nessa aula, você aí, vai aprender a usar containers docker, e melhor, no conforto do seu Linux!
+---
 
 # Starting the computer... or no, right?
 ---
