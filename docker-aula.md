@@ -2,7 +2,7 @@
 author: Humberto (op3n)
 pubDatetime: 2024-10-17T05:00:00.000Z
 modDatetime: 2024-10-17T05:00:00.000Z
-title: Como usar o docker? (Aula de Bash - Parte 3)
+title: Como usar o docker no Linux? (Aula 3 - Bash Script)
 slug: docker-iniciantes
 featured: false
 draft: false
@@ -11,7 +11,7 @@ tags:
  - iniciantes
  - minicurso
  - basico
-description: Nessa aula, você aí, vai aprender a usar containers docker, e melhor, no conforto do seu Linux!
+description: Nessa aula, você aí, vai aprender a usar containers docker, e melhor, no conforto do seu Linux (Debian Based)
 ---
 
 # Starting the computer... or no, right?
