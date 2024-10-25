@@ -149,7 +149,8 @@ Nesse tópico, você vai aprender a usar o gestor de pacotes do Debian (apt), qu
 
 1° Comando: `sudo apt help`
 
-```Resultado esperado: 
+```
+Resultado esperado: 
 apt 2.4.13 (amd64)
 Uso: comando apt [opções]
 

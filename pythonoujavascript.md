@@ -1,8 +1,8 @@
 ---
-author: PedroDev
+author: Pedro Simões ( @pedrodev )
 pubDatetime: 2024-10-21T02:00:00.000Z
-modDatetime: 2024-10-21T05:00:00.000Z
-title: Python ou Javascript?!?
+modDatetime: 2024-10-21T02:00:00.000Z
+title: Python ou Javascript ?!?
 slug: python-ou-javascript
 featured: false
 draft: false
