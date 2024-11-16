@@ -19,59 +19,56 @@ description: Entenda qual é a importância de dominar e aprender sobre duas coi
 
 # Lá vem ele...
 
-Olá meu amigo dev, tudo bem? Bem vindos a mais um artigo de eu tentando te ensinar como fazer seu próprio driver pra aquele mouse que não tá funcionando no Linux a mais de um mês! Brincadeiras a parte, hoje eu quero falar sobre um tema que me fez refletir muito durante a minha bela semana, por quê aprender bash e linux? Bem, e como eu estou escrevendo para um site para devs, eu pensei, como diabus eu vou conseguir encaixar isso no público alvo do meu texto? Foi quando na sexta (15 de novembro de 2024), lá no Discord da Play Devs, o White (pojinho) enviou uma pergunta, sendo ela na íntegra: "rpzd, pq é bom um dev saber bash? tenho um ubuntu e queria saber o pq", e bingo, achei o que eu precisava! Desde então, fiquei mechendo nuns projetos malucos, e agora, aqui estou fazendo este artigo pra vocês, neste mesmo dia, 15 de novembro. Bem, acho que agora é a hora que eu paro de ser o professor de português maneiro, pro professor de matemática chato...
+Olá, meu amigo dev, tudo bem? Bem-vindos a mais um artigo de eu tentando te ensinar como fazer seu próprio driver para aquele mouse que não está funcionando no Linux há mais de um mês! Brincadeiras à parte, hoje eu quero falar sobre um tema que me fez refletir muito durante a minha bela semana, por que aprender bash e Linux? Bem, e como estou escrevendo para um site para devs, pensei: como diabo eu vou conseguir encaixar isso no público-alvo do meu texto? Foi quando na sexta (15 de novembro de 2024), lá no Discord da Play Devs, o White (pojinho) enviou uma pergunta, sendo ela na íntegra: "rpzd, pq é bom um dev saber bash? tenho um ubuntu e queria saber o pq", e bingo, achei o que eu precisava! Desde então, fiquei mexendo em uns projetos malucos, e agora, aqui estou fazendo este artigo para vocês, neste mesmo dia, 15 de novembro. Bem, acho que agora é a hora que eu paro de ser o professor de português maneiro, para o professor de matemática chato...  
 
+# Que comece a ópera!  
 
-# Que comece a ópera!
+Bem, agora que vocês entenderam de onde o "gênio" (sim, gênio com "j") tirou esse lindo tema de artigo, vou logo te falar: você com certeza já deve ter tido seu primeiro deploy, e nele, já começou a ter aquele frio na barriga quando você tentava configurar o servidor e dava erro no deploy. Pois é, meu querido amigo, tudo porque você achava que eram os mesmos comandos do Windows. Bem, se você nunca passou por isso, de duas, uma: ou você viu um tutorial, ou você é maluco igual a mim, e começou na computação aprendendo a customizar Arch... De qualquer forma, o meu objetivo aqui é trazer a teoria e a prática separados, então calma, que essa teoria vai ser bem divertida... eu acho. (Pra quem não entendeu, é porque nessa parte eu ainda não tinha feito a teoria...)  
 
-Bem, agora que vocês entenderam de onde o "jênio", sim, gênio com J tirou esse lindo tema de artigo, vou logo te falar, você com certeza já deve ter tido seu primeiro deploy, e nele, você já começou a ter aquele frio na barriga quando você tentava configurar o servidor, e dava erro no deploy, pois é meu querido amigo, tudo porquê você achava que era os mesmos comandos do Windows, bem, se você nunca passou por isso, de duas a uma, ou você viu um tutorial, ou você é maluco igual a mim, e começou na computação aprendendo a customizar Arch... De qualquer forma, o meu objetivo aqui, é trazer a teoria e a prática separados, então calma, que essa teoria vai ser bem divertida, eu acho... (pra quem não entendeu, é porquê nessa parte eu ainda não tinha feito a teoria...)
+# Starting the computer, I think...  
+## (Leitores ávidos: De novo???)  
 
-
-# Starting the computer, i think...
-## (Leitores acíduos: Denovo???)
-
-Bom, se você não entendeu a referência do título, é porquê usamos esse mesmo título do artigo "Como usar o docker no Linux? (Aula 3 - Bash Script)", e bem, agradeça por essa introdução já com referências, porquê agora, você vai ver o circo pegar fogo!
+Bom, se você não entendeu a referência do título, é porque usamos esse mesmo título no artigo "Como usar o docker no Linux? (Aula 3 - Bash Script)", e bem, agradeça por essa introdução já com referências, porque agora, você vai ver o circo pegar fogo!  
 
 ---
 
-Pela minha expêriencia conversando em servers de development no Discord, e com alguns entusiastas na vida real, eu percebi que as pessoas tem um certo preconceito com Linux, e isso, é algo que me deixa levemente incomodado, já que incrivelmente, alguns YouTubers famosos como o "William Azarado", comenta barbaridades sobre a tecnologia em geral em seu canal, ou seja, qualquer um que conheça o minimo de tech, já entende que são coisas que não tem sentido, é tipo uma teoria da conspiração, mas que pode ser quebrado com um "googada". Dentre algumas coisas que dizem, é que o Linux tem uma interface antiquada, ou que Linux é inseguro, ou até mesmo, que Linux tem poucos apps. E isso, é quase uma ofensa a qualquer amante de Linux e tecnologias OpenSource, e bem, se você não se tocou ainda, eu sou um amante de Linux e tecnologias OpenSource, então seja bem vindo a mim quebrando cabeça por 1 milésimo de segundo para retrucar a essas afirmações...
+Pela minha experiência conversando em servers de development no Discord, e com alguns entusiastas na vida real, percebi que as pessoas têm um certo preconceito com Linux, e isso é algo que me deixa levemente incomodado. Incrivelmente, alguns YouTubers famosos, como o "William Azarado", comentam barbaridades sobre a tecnologia em geral em seus canais. Ou seja, qualquer um que conheça o mínimo de tech já entende que são coisas que não fazem sentido, é tipo uma teoria da conspiração, mas que pode ser quebrada com uma "googada". Dentre algumas coisas que dizem está que o Linux tem uma interface antiquada, ou que Linux é inseguro, ou até mesmo que Linux tem poucos apps. E isso é quase uma ofensa a qualquer amante de Linux e tecnologias OpenSource. Bem, se você não se tocou ainda, eu sou um amante de Linux e tecnologias OpenSource, então seja bem-vindo a mim quebrando cabeça por 1 milésimo de segundo para retrucar essas afirmações...  
 
+# Confrontando fake news! (Só pelo entretenimento; se quiser, só pule essa parte)  
 
-# Confrontando fake-news! (Só pelo entreterimento, se quiser só pula essa parte)
-
-1° Afirmação: "O Linux tem uma interface antiquada..."
-
----
-
-Bem, pra começar a falar, o Linux nem interface tem, pra falar a verdade, nem sequer algo de clicavel ele mostra, e bem, o Linux é um simples Kernel, ou seja, falando na linguagem popular e resumida, o Linux é a Rocha Matriz, a base, o responsável por outros sistemas operacionais baseados nele (Vulgo: Distros), e essas distros baseadas nele que realmente tem uma interface, podendo elas ser parecidas com o MacOS (Gnome), alguns mais simples e direto ao pontos, para máquinas mais fracas (XFCE/LXQT), e alguns parecidos com a interface do Windows 10 (KDE Plasma). Ou seja, alguns realmente podem ter uma interface dita mais antiga, porém, isso são para máquinas mais simples, e que não aguentam interfaces mais pesadas, que por sinal, é um dos públicos alvo do Linux.
+1ª Afirmação: "O Linux tem uma interface antiquada..."  
 
 ---
 
-2° Afirmação: "O Linux é inseguro..."
+Bem, para começar a falar, o Linux nem interface tem, para falar a verdade, nem sequer algo clicável ele mostra. E bem, o Linux é um simples Kernel, ou seja, falando na linguagem popular e resumida, o Linux é a Rocha Matriz, a base, o responsável por outros sistemas operacionais baseados nele (vulgo: Distros). E essas distros baseadas nele que realmente têm uma interface, podendo elas ser parecidas com o MacOS (Gnome), algumas mais simples e diretas ao ponto, para máquinas mais fracas (XFCE/LXQT), e algumas parecidas com a interface do Windows 10 (KDE Plasma). Ou seja, algumas realmente podem ter uma interface dita mais antiga, porém, isso é para máquinas mais simples, e que não aguentam interfaces mais pesadas, que por sinal, é um dos públicos-alvo do Linux.  
 
 ---
 
-Bem, acho que pra começo de conversa, temos que entender que muito pelo contrário, graças ao seu sistema de privilégios e permissões, que por sinal é bem complexo, permite ele ser um dos sistemas mais seguros do mundo. Assim, podemos comprovar com um exemplo, no Windows, quando você instala uma aplicação, ele não requisita nada, além de clicar em um "Sim" numa caixinha, isso porquê um virus nem disso precisa porquê a permissão padrão do usuário Windows já dá diversas brechas. Já no Linux, qualquer operação, seja de instalação, remoção de apps ou arquivos, e até mesmo edição, necessita da permissão "sudoer", que só pode ser adquirida com a inserção de sua senha.
+2ª Afirmação: "O Linux é inseguro..."  
 
 ---
 
-3° Afirmação: "O Linux tem poucos apps..."
+Bem, acho que, para começo de conversa, temos que entender que, muito pelo contrário, graças ao seu sistema de privilégios e permissões (que, por sinal, é bem complexo), ele é um dos sistemas mais seguros do mundo. Assim, podemos comprovar com um exemplo: no Windows, quando você instala uma aplicação, ele não requisita nada além de clicar em um "Sim" numa caixinha. Isso porque um vírus nem disso precisa, já que a permissão padrão do usuário Windows já dá diversas brechas. Já no Linux, qualquer operação, seja de instalação, remoção de apps ou arquivos, e até mesmo edição, necessita da permissão "sudoer", que só pode ser adquirida com a inserção de sua senha.  
 
 ---
 
-Novamente, temos algo que não tem nenhum sentido. Assim comos muitos apps Windows não tem no MacOS, vários apps Mac não tem em Windows. O mesmo ocorre com o Linux, porém, temos uma diferença absurda quando falamos de "OpenSource", isso porquê, acaba que a própria comunidade cria alternativas a esses apps, e lançando em lojas como o FlatHub, Snap, e até no Repositório oficial de sua distro. E com isso, editores de vídeo como o Adobe Premiere, podem ser substituidos pelo Kdenlive (Editor de vídeo da criadora da interface KDE), ou então, aquele famoso joguinho com o Wine! Ah, e já com isso podemos ir para a proxima afirmação.
+3ª Afirmação: "O Linux tem poucos apps..."  
 
 ---
 
-4° e ultima afirmação: "WINE é um emulador..."
+Novamente, temos algo que não faz nenhum sentido. Assim como muitos apps do Windows não têm no MacOS, vários apps do Mac não têm no Windows. O mesmo ocorre com o Linux, porém, temos uma diferença absurda quando falamos de "OpenSource". Isso porque acaba que a própria comunidade cria alternativas a esses apps, e as lança em lojas como o FlatHub, Snap, e até no repositório oficial de sua distro. Com isso, editores de vídeo como o Adobe Premiere podem ser substituídos pelo Kdenlive (editor de vídeo da criadora da interface KDE), ou então, aquele famoso joguinho com o Wine! Ah, e já com isso podemos ir para a próxima afirmação.  
 
 ---
 
-Nos outros eu precisei argumentar, mas aqui, eu só preciso falar o que WINE significa... (Wine Is Not an Emulator), ou a tradução, (Wine Não é Um Emulador)... Eu acho que essa é a pior afirmação de todas...
+4ª e última afirmação: "WINE é um emulador..."  
 
 ---
 
-Agora que desmistificamos basicamente todos os boatos sobre Linux, e você já tem na mente o que realmente é Linux, podemos voltar ao tema principal...
+Nos outros eu precisei argumentar, mas aqui, eu só preciso falar o que WINE significa... (Wine Is Not an Emulator), ou, na tradução, (Wine Não é Um Emulador)... Eu acho que essa é a pior afirmação de todas...  
+
+---
+
+Agora que desmistificamos basicamente todos os boatos sobre Linux, e você já tem na mente o que realmente é Linux, podemos voltar ao tema principal...  
 
 
 # Deploys....
