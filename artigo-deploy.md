@@ -23,7 +23,7 @@ Olá, meu amigo dev, tudo bem? Bem-vindos a mais um artigo de eu tentando te ens
 
 # Que comece a ópera!  
 
-Bem, agora que vocês entenderam de onde o "gênio" (sim, gênio com "j") tirou esse lindo tema de artigo, vou logo te falar: você com certeza já deve ter tido seu primeiro deploy, e nele, já começou a ter aquele frio na barriga quando você tentava configurar o servidor e dava erro no deploy. Pois é, meu querido amigo, tudo porque você achava que eram os mesmos comandos do Windows. Bem, se você nunca passou por isso, de duas, uma: ou você viu um tutorial, ou você é maluco igual a mim, e começou na computação aprendendo a customizar Arch... De qualquer forma, o meu objetivo aqui é trazer a teoria e a prática separados, então calma, que essa teoria vai ser bem divertida... eu acho. (Pra quem não entendeu, é porque nessa parte eu ainda não tinha feito a teoria...)  
+Bem, agora que vocês entenderam de onde o "jênio" (sim, gênio com "j") tirou esse lindo tema de artigo, vou logo te falar: você com certeza já deve ter tido seu primeiro deploy, e nele, já começou a ter aquele frio na barriga quando você tentava configurar o servidor e dava erro no deploy. Pois é, meu querido amigo, tudo porque você achava que eram os mesmos comandos do Windows. Bem, se você nunca passou por isso, de duas, uma: ou você viu um tutorial, ou você é maluco igual a mim, e começou na computação aprendendo a customizar Arch... De qualquer forma, o meu objetivo aqui é trazer a teoria e a prática separados, então calma, que essa teoria vai ser bem divertida... eu acho. (Pra quem não entendeu, é porque nessa parte eu ainda não tinha feito a teoria...)  
 
 # Starting the computer, I think...  
 ## (Leitores ávidos: De novo???)  
